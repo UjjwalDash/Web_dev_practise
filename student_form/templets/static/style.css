@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+header{
+    color: white;
+    background-color: rgb(17, 124, 143);
+    padding: 10px;
+}
+main{
+    background-color: rgb(235, 160, 48);
+
+}
+input[value="Submit"]{
+    background-color: rgb(224, 96, 37);
+    color: white;
+    padding: 5px;
+}
+p[name="first"]{
+    color: red;
+    padding: 10px;
+}

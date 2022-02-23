@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css" media="screen">
+</head>
+<body>
+    <form method="get" action="save">
+        <header>
+            <p>
+                <h2 id="first_heading">Feedback Form</h2>
+            </p>
+        </header>
+        <main>
+            <p name="first">
+                All the field marked with * are required
+            </p>
+            <fieldset>
+                <legend>Name *</legend>
+                <p>
+                    <input type="text" name="name" id="name" required>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Roll No *</legend>
+                    <p>
+                        <input type="number" name="roll" id="roll" required>
+                    </p>
+            </fieldset>
+            <fieldset>
+                <legend>Email *</legend>
+                <p>
+                    <input type="email" name="email" id="email" required>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Review *</legend>
+                <p>
+                    <textarea name="review" id="review" cols="35" rows="7" required></textarea>
+                </p>
+            </fieldset>
+            <br>
+            <div name="sumit">
+                <input type="submit" value="Submit">
+            </div>
+            <br>
+        </main>
+    </form>
+
+</body>
+</html>
